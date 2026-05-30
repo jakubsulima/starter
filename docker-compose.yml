@@ -2,7 +2,7 @@ services:
   app:
     build:
       context: .
-      dockerfile: app/DockerFIle
+      dockerfile: Dockerfile
     volumes:
       - app-data:/data
     healthcheck:
